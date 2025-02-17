@@ -1,0 +1,69 @@
+/* Reset básico para estilos predeterminados del navegador */
+
+/* Box sizing border-box en todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Tipografía base */
+  html {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  /* Eliminar decoración de enlaces */
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Listas sin estilos */
+  ul, ol,li {
+    list-style: none;
+  }
+  
+  /* Imágenes sin bordes ni espacios extra */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Botones sin estilos de fondo ni borde */
+  button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Eliminar estilos de tabla */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  /* Normalizar elementos de formulario */
+  input, textarea, select, button {
+    font: inherit;
+  }
+  
+  /* Evitar herencia de estilos en formularios */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  textarea {
+    outline: none;
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  
+  /* Definir un estilo base para el body */
+  body {
+    background-color: #fff;
+    color: #333;
+  }
