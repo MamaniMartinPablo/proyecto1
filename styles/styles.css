@@ -1,0 +1,96 @@
+body{
+    background-color: black;
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1,h2,h3,h4{
+    text-align: center;
+}
+
+section{
+    background-color: rgb(91, 85, 85);
+    margin: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding:10px;
+    color: white;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.card{
+    background-color: rgb(40, 40, 38);
+    width: 150px;
+    border-radius: 5px;
+    
+}
+
+.card:hover{
+    opacity: 1;
+}
+
+.card p{
+    text-align: center;
+    margin: 5px;
+}
+.card img{
+    opacity: 0.5;
+    margin: 0 auto;
+    width: 120px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.card img:hover{
+    opacity:1;
+}
+
+.actividad{
+    background-color: black;
+}
+
+input{
+    width: 100%;
+    margin: 5px;
+    background-color: rgb(91, 85, 85);
+    color: white;
+}
+
+input::placeholder{
+    color: rgb(196, 189, 189);
+}
+
+
+button{
+    color: white;
+    background-color: rgb(91, 85, 85);
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin: 5px;
+}
+
+.contenedor p {
+    text-align: center;
+}
+
+.actividades p {
+    text-align: center;
+    padding: 20px;
+}
