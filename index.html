@@ -35,12 +35,14 @@
         <h5>
             Mis Actividades Favoritas
         </h5>
-        <input type="text" placeholder="Nombre de la actividad">
-        <input type="text" placeholder="Descripcion de la actividad">
-        <input type="text" placeholder="Link de la imagen">
-        <button type="submit">Agregar Actividad</button>
+        <form id="activityForm">
+            <input type="text" placeholder="Nombre de la actividad" id="titleInput">
+            <input type="text" placeholder="Descripcion de la actividad" id="descriptionInput">
+            <input type="text" placeholder="Link de la imagen" id="imgInput">
+            <button type="submit" id="agregar">Agregar Actividad</button>
+        </form>
     </section>
-    <div class="actividades">
+    <div id="actividades" class="container">
         <p>Sin actividades por el momento</p>
     </div>
   <script src="./scripts/index.js"></script>
